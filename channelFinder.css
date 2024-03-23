@@ -39,3 +39,6 @@ select {
   font-weight: bold;
   border-width: 2px;
 }
+#channelResults {
+  font-weight: bold;
+}
