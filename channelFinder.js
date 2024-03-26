@@ -54,7 +54,7 @@ function findChannel() {
       let currentPackages = currentChannel.packages;
 
       if (currentName.includes(channelSearch.toLowerCase())) {
-        let packageSupported = packageType === "all" || currentPackages.includes(packageType);
+        let packageSupported = currentPackages.includes(packageType) || packageType === "all";
         if (packageSupported) {
           let cID = currentChannel.name.replaceAll(" ", "_");
           let cInnerText = currentChannel.name + cInnerTextMid + currentChannelNumber;
