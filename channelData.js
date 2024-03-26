@@ -1,4 +1,4 @@
-var optimumChannelData = {
+var optimumSJwallChannelData = {
   channels: {
     1: {
       name: "Cheddar News",
