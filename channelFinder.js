@@ -1,49 +1,49 @@
 // remove for production #############################
 document.getElementById("provider").selectedIndex = 1;
-updateProvider();
+//updateProvider();
 // ###################################################
 
 document.getElementById("channelInput").onkeyup = findChannel;
-document.getElementById("oneChannelPerLine").onclick = findChannel;
-document.getElementById("packageType").onchange = findChannel;
+//document.getElementById("oneChannelPerLine").onclick = findChannel;
+//document.getElementById("packageType").onchange = findChannel;
 document.getElementById("provider").onchange = updateProvider;
 document.getElementById("themeButton").onclick = toggleTheme;
 
 function updateProvider() {
   let currentProvider = document.getElementById("provider").value;
   let selectElement = document.getElementById("packageType");
-  selectElement.innerHTML = '<option value="all">All Packages</option>';
+  //selectElement.innerHTML = '<option value="all">All Packages</option>';
   if (currentProvider === "" || window[currentProvider].packages == null) {
     findChannel();
     return;
   }
-  let packages = Object.keys(window[currentProvider].packages);
-  for (let i = 0; i < packages.length; i++) {
-    let option = document.createElement("option");
-    option.text = packages[i];
-    option.value = packages[i];
-    selectElement.add(option);
-  }
+  // let packages = Object.keys(window[currentProvider].packages);
+  // for (let i = 0; i < packages.length; i++) {
+  //   let option = document.createElement("option");
+  //   option.text = packages[i];
+  //   option.value = packages[i];
+  //   selectElement.add(option);
+  // }
   findChannel();
 }
 
 function findChannel() {
   let currentProvider = window[document.getElementById("provider").value];
   let channelSearch = document.getElementById("channelInput").value;
-  let packageType = document.getElementById("packageType").value;
-  let channelCheckbox = document.getElementById("oneChannelPerLine").checked;
+  //let packageType = document.getElementById("packageType").value;
+  //let channelCheckbox = document.getElementById("oneChannelPerLine").checked;
   let cInnerTextMid = " is on channel ";
   const classes = 'class="container mt-3"';
   if (channelSearch === "" || currentProvider === undefined) {
-    // if (currentProvider !== undefined) {
-    //   document.getElementById("channelInput").focus();
-    // }
+    if (currentProvider !== undefined) {
+      document.getElementById("channelInput").focus();
+    }
     document.getElementById("channelResults").innerText = "";
     return;
   }
-  if (!channelCheckbox) {
-    cInnerTextMid = " is on channel(s) ";
-  }
+  // if (!channelCheckbox) {
+  //   cInnerTextMid = " is on channel(s) ";
+  // }
   let jsonChannels = Object.keys(currentProvider.channels);
   document.getElementById("channelResults").innerText = "";
   for (let i = 0; i < jsonChannels.length; i++) {
@@ -54,13 +54,13 @@ function findChannel() {
       let currentPackages = currentChannel.packages;
 
       if (currentName.includes(channelSearch.toLowerCase())) {
-        let packageSupported = currentPackages.includes(packageType) || packageType === "all";
-        if (packageSupported) {
+        //let packageSupported = currentPackages.includes(packageType) || packageType === "all";
+        if (true || packageSupported) {
           let cID = currentChannel.name.replaceAll(" ", "_");
           let cInnerText = currentChannel.name + cInnerTextMid + currentChannelNumber;
           let channelUsed = document.getElementById(cID);
 
-          if (channelCheckbox || channelUsed === null) {
+          if ((false && channelCheckbox) || channelUsed === null) {
             let channelHTML = "<div " + classes + ' id="' + cID + '">' + cInnerText + "</div>";
             document.getElementById("channelResults").innerHTML += channelHTML;
           } else {

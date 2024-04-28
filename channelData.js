@@ -1576,3 +1576,1497 @@ var optimumSJwallChannelData = {
     "Channel availability depends on level of service and equipment.",
   ],
 };
+
+var optimumChannelLineupBronx = {
+  channels: {
+    1: {
+      name: "Cheddar News (HD Only)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    2: {
+      name: "CBS (WCBS)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    3: {
+      name: "ION (WPXN)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    4: {
+      name: "NBC (WNBC)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    5: {
+      name: "FOX (WNYW)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "6/1004": {
+      name: "Univisión (WXTV)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV", "Spanish Basic", "Spanish Preferred"],
+    },
+    7: {
+      name: "ABC (WABC)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    8: {
+      name: "New York 1 News (HD only)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    9: {
+      name: "My9 (WWOR)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    10: {
+      name: "WLNY",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    11: {
+      name: "CW (WPIX)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    12: {
+      name: "News 12 The Bronx",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    13: {
+      name: "PBS/Thirteen (WNET)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    14: {
+      name: "i24NEWS",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    15: {
+      name: "QVC",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "16/1007": {
+      name: "Telemundo (WNJU)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV", "Spanish Basic", "Spanish Preferred"],
+    },
+    "17/1005": {
+      name: "UniMÁS",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV", "Spanish Basic", "Spanish Preferred"],
+    },
+    "18/147": {
+      name: "HSN",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    19: {
+      name: "WRNN",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    20: {
+      name: "WMBC",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    21: {
+      name: "PBS (WLIW)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    22: {
+      name: "NYC Life",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    23: {
+      name: "MSNBC2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    24: {
+      name: "CNBC",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    25: {
+      name: "CNN2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    26: {
+      name: "FOX News Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    27: {
+      name: "Discovery Channel2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    28: {
+      name: "TLC",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    29: {
+      name: "ShopHQ7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    30: {
+      name: "Archiocesan Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    33: {
+      name: "MeTV (WJLP)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    34: {
+      name: "TV Land",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    37: {
+      name: "TNT2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    38: {
+      name: "USA Network",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    39: {
+      name: "TBS2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    40: {
+      name: "FX",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    41: {
+      name: "Turner Classic Movies2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    42: {
+      name: "WE tv2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    43: {
+      name: "AMC",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    44: {
+      name: "Bravo",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    45: {
+      name: "Lifetime",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    46: {
+      name: "A&E",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    47: {
+      name: "History2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    48: {
+      name: "Syfy",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    49: {
+      name: "Freeform",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    50: {
+      name: "Comedy Central",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    51: {
+      name: "E!",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    52: {
+      name: "VH1",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    53: {
+      name: "MTV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    54: {
+      name: "BET",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    55: {
+      name: "MTV2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    56: {
+      name: "Paramount Network",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    57: {
+      name: "Animal Planet2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    58: {
+      name: "truTV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    59: {
+      name: "Religious Programming",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    61: {
+      name: "News 12+",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    62: {
+      name: "The Weather Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    65: {
+      name: "C-SPAN7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    67: {
+      name: "Bronxnet ON (BRONXNET Public Access)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    68: {
+      name: "BX Arts (BRONXNET Public Access)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    69: {
+      name: "BX Culture (BRONXNET Public Access)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    70: {
+      name: "BX Inform (BRONXNET Public Access)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    71: {
+      name: "OTB on NYC TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    72: {
+      name: "NYC Drive",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    73: {
+      name: "NYC World",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    74: {
+      name: "NYC Government",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    75: {
+      name: "CUNY on NYC TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    76: {
+      name: "GSN",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    77: {
+      name: "CNN Headline News2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    78: {
+      name: "fuse2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    80: {
+      name: "Optimum Channel Guide",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    81: {
+      name: "Oxygen True Crime",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    82: {
+      name: "NewsNation",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    83: {
+      name: "IFC",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    84: {
+      name: "WZME MeTV+",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    85: {
+      name: "WZME StoryTV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    92: {
+      name: "Hallmark",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    93: {
+      name: "Hallmark Movies & Mysteries",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    94: {
+      name: "HSN27",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    95: {
+      name: "BUZZR",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    96: {
+      name: "Travel Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    97: {
+      name: "Food Network2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    98: {
+      name: "HGTV2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    101: {
+      name: "BBC America",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    102: {
+      name: "Newsmax",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    103: {
+      name: "EuroNews2,7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    104: {
+      name: "BBC News7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    105: {
+      name: "Bloomberg TV2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    106: {
+      name: "FOX Business Network",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    107: {
+      name: "C-SPAN 32",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    108: {
+      name: "This TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    109: {
+      name: "COZI TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    110: {
+      name: "Localish (HD Only)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    112: {
+      name: "Start TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    113: {
+      name: "MOVIES!",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    114: {
+      name: "Antenna TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    115: {
+      name: "C-SPAN 27",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    116: {
+      name: "NYS Legislative TV7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    117: {
+      name: "Word Network",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    118: {
+      name: "Leased Access",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    120: {
+      name: "Discovery Family Channel2,7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    121: {
+      name: "Nickelodeon",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    122: {
+      name: "Nicktoons TV7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    123: {
+      name: "Nick Jr.",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    124: {
+      name: "Teen Nick7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "31/125": {
+      name: "Disney Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    126: {
+      name: "Disney Junior",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    127: {
+      name: "Disney XD",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "32/128": {
+      name: "Cartoon Network2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    129: {
+      name: "Boomerang2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    130: {
+      name: "Universal Kids7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    131: {
+      name: "PBS Kids Thirteen",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    132: {
+      name: "PBS World (WLIW)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    133: {
+      name: "PBS Create (WLIW)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    134: {
+      name: "Trinity Broadcasting Network",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    135: {
+      name: "EWTN2,7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    136: {
+      name: "Daystar2,7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    137: {
+      name: "Catholic Faith Network2,7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    138: {
+      name: "Jewish Broadcasting Service2,7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    140: {
+      name: "Heroes & Icons",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    141: {
+      name: "Discovery Life7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    143: {
+      name: "GET",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    144: {
+      name: "PBS All Arts (WLIW) (HD only)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    145: {
+      name: "DABL",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    146: {
+      name: "LocalX",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    148: {
+      name: "CHARGE!",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    149: {
+      name: "Shop LC",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    150: {
+      name: "MotorTrend (HD only)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    151: {
+      name: "Rewind TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    152: {
+      name: "Crime & Investigation Network (HD only)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    153: {
+      name: "MTV Live (HD only)",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    154: {
+      name: "Pop",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    155: {
+      name: "Gem Shopping Network7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    156: {
+      name: "Great American Faith and Living7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    157: {
+      name: "The Cowboy Channel7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    158: {
+      name: "Nat Geo Wild",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    159: {
+      name: "FXX",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    160: {
+      name: "FYI",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    161: {
+      name: "Vice TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    162: {
+      name: "National Geographic2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    163: {
+      name: "Smithsonian Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    165: {
+      name: "Classic Arts Showcase7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    166: {
+      name: "Cooking Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    167: {
+      name: "Magnolia Network",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    168: {
+      name: "Justice Central",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    169: {
+      name: "Recipe.TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    170: {
+      name: "Science Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    171: {
+      name: "Investigation Discovery",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    172: {
+      name: "Destination America",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    173: {
+      name: "American Heroes Channel",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    174: {
+      name: "LMN1",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    175: {
+      name: "FETV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    176: {
+      name: "Cleo TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    177: {
+      name: "ReelzChannel2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    178: {
+      name: "TV One2,7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    179: {
+      name: "Logo TV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    180: {
+      name: "OWN2",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    181: {
+      name: "Impact Network",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    182: {
+      name: "Jewelry Television7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    183: {
+      name: "QVC27",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    184: {
+      name: "Great American Family",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    185: {
+      name: "BET Her7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    186: {
+      name: "MTV Classic7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    187: {
+      name: "CMT",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    189: {
+      name: "Hallmark Drama7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    190: {
+      name: "FX Movie Channel7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    192: {
+      name: "SundanceTV",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    193: {
+      name: "Fox Weather7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    194: {
+      name: "NY1 Noticias",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "195/1073": {
+      name: "MTV Tr3s6",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV", "Spanish Basic", "Spanish Preferred"],
+    },
+    "197/1074": {
+      name: "NBC Universo6",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV", "Spanish Basic", "Spanish Preferred"],
+    },
+    "198/1006": {
+      name: "Galavisión",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV", "Spanish Basic", "Spanish Preferred"],
+    },
+    951: {
+      name: "BX Inspire",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    952: {
+      name: "NYXT NYC",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "89/201": {
+      name: "YES Network",
+      packages: ["Sports Pack"],
+    },
+    "60/202": {
+      name: "SportsNet New York",
+      packages: ["Sports Pack"],
+    },
+    "87/203": {
+      name: "MSG",
+      packages: ["Sports Pack"],
+    },
+    "88/204": {
+      name: "MSG Sportsnet",
+      packages: ["Sports Pack"],
+    },
+    "90/205": {
+      name: "Sports Overflow 1",
+      packages: ["Sports Pack"],
+    },
+    206: {
+      name: "Sports Overflow 2",
+      packages: ["Sports Pack"],
+    },
+    "36/210": {
+      name: "ESPN",
+      packages: ["Sports Pack"],
+    },
+    "35/211": {
+      name: "ESPN2",
+      packages: ["Sports Pack"],
+    },
+    "99/213": {
+      name: "FOX Sports 1",
+      packages: ["Sports Pack"],
+    },
+    214: {
+      name: "FOX Sports 23,7",
+      packages: ["Sports Pack"],
+    },
+    215: {
+      name: "CBS Sports Network3,4",
+      packages: ["Sports Pack", "College Sports Pack"],
+    },
+    216: {
+      name: "ESPNEWS",
+      packages: ["Sports Pack"],
+    },
+    217: {
+      name: "ESPNU3,4",
+      packages: ["Sports Pack", "College Sports Pack"],
+    },
+    219: {
+      name: "NFL Network3",
+      packages: ["Sports Pack"],
+    },
+    220: {
+      name: "NFL RedZone3",
+      packages: ["Sports Pack"],
+    },
+    "221/269": {
+      name: "NBA TV3",
+      packages: ["Sports Pack"],
+    },
+    222: {
+      name: "MLB Network3",
+      packages: ["Sports Pack"],
+    },
+    "223/268": {
+      name: "NHL Network3",
+      packages: ["Sports Pack"],
+    },
+    224: {
+      name: "The Golf Channel3",
+      packages: ["Sports Pack"],
+    },
+    226: {
+      name: "Tennis Channel (HD only)3",
+      packages: ["Sports Pack"],
+    },
+    "227/1066": {
+      name: "ESPN Deportes6,7",
+      packages: ["Sports Pack", "Spanish Basic", "Spanish Preferred"],
+    },
+    "228/1067": {
+      name: "FOX Deportes6,7",
+      packages: ["Sports Pack", "Spanish Basic", "Spanish Preferred"],
+    },
+    "229/1065": {
+      name: "TUDN6",
+      packages: ["Sports Pack", "Spanish Basic", "Spanish Preferred"],
+    },
+    "230/1070": {
+      name: "beIN Sports en Español3,6",
+      packages: ["Sports Pack", "Spanish Basic", "Spanish Preferred"],
+    },
+    231: {
+      name: "beIN Sports3",
+      packages: ["Sports Pack"],
+    },
+    232: {
+      name: "FOX Soccer Plus1,7",
+      packages: ["Sports Pack"],
+    },
+    233: {
+      name: "GOL TV3,7",
+      packages: ["Sports Pack"],
+    },
+    238: {
+      name: "Game+3,7",
+      packages: ["Sports Pack"],
+    },
+    "239/1171": {
+      name: "Willow3,6,7",
+      packages: ["Sports Pack"],
+    },
+    241: {
+      name: "World Fishing Network3,7",
+      packages: ["Sports Pack"],
+    },
+    242: {
+      name: "Sportsman Channel3,7",
+      packages: ["Sports Pack"],
+    },
+    243: {
+      name: "MavTV Motorsport Network3,7",
+      packages: ["Sports Pack"],
+    },
+    244: {
+      name: "Fight Network3,7",
+      packages: ["Sports Pack"],
+    },
+    245: {
+      name: "TVG Network3,7",
+      packages: ["Sports Pack"],
+    },
+    246: {
+      name: "SEC4,7",
+      packages: ["Sports Pack", "College Sports Pack"],
+    },
+    247: {
+      name: "BTN3,4",
+      packages: ["Sports Pack", "College Sports Pack"],
+    },
+    248: {
+      name: "ACC Network3,4",
+      packages: ["Sports Pack", "College Sports Pack"],
+    },
+    "254-267": {
+      name: "MLB Extra Innings/ NHL Center Ice (HD Only)5,7",
+      packages: ["Sports Pack"],
+    },
+    "270-279": {
+      name: "NBA League Pass (HD Only)5,7",
+      packages: ["Sports Pack"],
+    },
+    300: {
+      name: "HBO On Demand1,8",
+      packages: ["HBO"],
+    },
+    301: {
+      name: "HBO1",
+      packages: ["HBO"],
+    },
+    302: {
+      name: "HBO21",
+      packages: ["HBO"],
+    },
+    303: {
+      name: "HBO Comedy1",
+      packages: ["HBO"],
+    },
+    304: {
+      name: "HBO Zone1",
+      packages: ["HBO"],
+    },
+    305: {
+      name: "HBO Latino1",
+      packages: ["HBO"],
+    },
+    306: {
+      name: "HBO West1",
+      packages: ["HBO"],
+    },
+    307: {
+      name: "HBO2 West1",
+      packages: ["HBO"],
+    },
+    308: {
+      name: "HBO Signature West1",
+      packages: ["HBO"],
+    },
+    309: {
+      name: "HBO Family West1",
+      packages: ["HBO"],
+    },
+    310: {
+      name: "HBO Signature1",
+      packages: ["HBO"],
+    },
+    311: {
+      name: "HBO Family1",
+      packages: ["HBO"],
+    },
+    320: {
+      name: "Showtime On Demand1,8",
+      packages: ["Showtime"],
+    },
+    321: {
+      name: "Paramount+ with Showtime1",
+      packages: ["Showtime"],
+    },
+    322: {
+      name: "Showtime 21",
+      packages: ["Showtime"],
+    },
+    323: {
+      name: "SHOxBET1,7",
+      packages: ["Showtime"],
+    },
+    324: {
+      name: "Showtime Next1,7",
+      packages: ["Showtime"],
+    },
+    325: {
+      name: "Showtime Family Zone1,7",
+      packages: ["Showtime"],
+    },
+    326: {
+      name: "Showtime Women1,7",
+      packages: ["Showtime"],
+    },
+    327: {
+      name: "Paramount+ with Showtime West1",
+      packages: ["Showtime"],
+    },
+    328: {
+      name: "Showtime 2 West1",
+      packages: ["Showtime"],
+    },
+    329: {
+      name: "Showtime Showcase West1",
+      packages: ["Showtime"],
+    },
+    330: {
+      name: "Showtime Showcase1",
+      packages: ["Showtime"],
+    },
+    331: {
+      name: "Showtime Extreme1",
+      packages: ["Showtime"],
+    },
+    340: {
+      name: "Starz On Demand1,8",
+      packages: ["Starz"],
+    },
+    341: {
+      name: "Starz1",
+      packages: ["Starz"],
+    },
+    342: {
+      name: "Starz Kids & Family1",
+      packages: ["Starz"],
+    },
+    343: {
+      name: "Starz Edge1",
+      packages: ["Starz"],
+    },
+    344: {
+      name: "Starz in Black1,7",
+      packages: ["Starz"],
+    },
+    345: {
+      name: "Starz West1",
+      packages: ["Starz"],
+    },
+    346: {
+      name: "Starz Comedy1,7",
+      packages: ["Starz"],
+    },
+    347: {
+      name: "Starz Cinema1,7",
+      packages: ["Starz"],
+    },
+    350: {
+      name: "Starz Encore On Demand1,8",
+      packages: ["Starz Encore"],
+    },
+    351: {
+      name: "Starz Encore1",
+      packages: ["Starz Encore"],
+    },
+    352: {
+      name: "Starz Encore Suspense1,7",
+      packages: ["Starz Encore"],
+    },
+    353: {
+      name: "Starz Encore Westerns1,7",
+      packages: ["Starz Encore"],
+    },
+    354: {
+      name: "Starz Encore Classic1,7",
+      packages: ["Starz Encore"],
+    },
+    355: {
+      name: "Starz Encore Black1,7",
+      packages: ["Starz Encore"],
+    },
+    356: {
+      name: "Starz Encore Family1,7",
+      packages: ["Starz Encore"],
+    },
+    357: {
+      name: "Starz Encore West1,7",
+      packages: ["Starz Encore"],
+    },
+    358: {
+      name: "Starz Encore Action1,7",
+      packages: ["Starz Encore"],
+    },
+    "359/1056": {
+      name: "Starz Encore Espanol1,6,7",
+      packages: ["Starz Encore", "Spanish Basic", "Spanish Preferred"],
+    },
+    370: {
+      name: "Cinemax On Demand1,8",
+      packages: ["Cinemax"],
+    },
+    371: {
+      name: "Cinemax1,7",
+      packages: ["Cinemax"],
+    },
+    372: {
+      name: "MoreMAX1,7",
+      packages: ["Cinemax"],
+    },
+    373: {
+      name: "ThrillerMAX1,7",
+      packages: ["Cinemax"],
+    },
+    374: {
+      name: "MovieMAX1,7",
+      packages: ["Cinemax"],
+    },
+    375: {
+      name: "Cinemáx1,7",
+      packages: ["Cinemax"],
+    },
+    376: {
+      name: "5 StarMAX1,7",
+      packages: ["Cinemax"],
+    },
+    377: {
+      name: "OuterMAX1,7",
+      packages: ["Cinemax"],
+    },
+    378: {
+      name: "Cinemax West1,7",
+      packages: ["Cinemax"],
+    },
+    379: {
+      name: "ActionMAX1,8,7",
+      packages: ["Cinemax"],
+    },
+    390: {
+      name: "TMC On Demand1",
+      packages: ["TMC"],
+    },
+    391: {
+      name: "TMC1",
+      packages: ["TMC"],
+    },
+    392: {
+      name: "TMC West1,7",
+      packages: ["TMC"],
+    },
+    393: {
+      name: "TMC Xtra1,7",
+      packages: ["TMC"],
+    },
+    394: {
+      name: "TMC Xtra West1,7",
+      packages: ["TMC"],
+    },
+    397: {
+      name: "Flix7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    500: {
+      name: "On Demand1, 8",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    502: {
+      name: "Free On Demand8",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    507: {
+      name: "Anime Network On Demand1, 8",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    509: {
+      name: "here! On Demand1, 8",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "520-533": {
+      name: "Adult Programming1, 8",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "550-553": {
+      name: "Pay Per View1",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    600: {
+      name: "Netflix8, 10",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    603: {
+      name: "You Tube8, 10",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    612: {
+      name: "News 12 Interactive8, 10",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    630: {
+      name: "Caller ID9",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    901: {
+      name: "Amazon Prime Video8, 10",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    1000: {
+      name: "DVR Playback9",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    1001: {
+      name: "Multi-Room DVR Playback9",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    "850-899": {
+      name: "Stingray Music7",
+      packages: ["Broadcast Basic", "Core TV", "Value TV", "Select TV", "Premier TV"],
+    },
+    1010: {
+      name: "Estrella TV7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1011: {
+      name: "HITN6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1012: {
+      name: "CNN en Español6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1013: {
+      name: "Discovery en Español6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1014: {
+      name: "Canal America6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1016: {
+      name: "Nat Geo Mundo6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1017: {
+      name: "History en Español6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1018: {
+      name: "Discovery Familia6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1019: {
+      name: "Tarima6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1020: {
+      name: "Ve Plus6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1021: {
+      name: "NTN246,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1022: {
+      name: "FOROtv6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1023: {
+      name: "Supercanal Caribe6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1024: {
+      name: "Telemicro Internacional6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1025: {
+      name: "Dominican View6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1026: {
+      name: "WAPA America6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1028: {
+      name: "Cuba Play6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1029: {
+      name: "Televisión Dominicana6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1030: {
+      name: "centroaméricatv6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1031: {
+      name: "Ecuavisa Internacional6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1032: {
+      name: "TV Chile6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1033: {
+      name: "Nuestra Tele6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1034: {
+      name: "Caracol TV Internacional6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1039: {
+      name: "SUR Perú6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1041: {
+      name: "Teleformula6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1042: {
+      name: "Canal Sur6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1043: {
+      name: "TVE Internacional6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1044: {
+      name: "Antena 36,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1048: {
+      name: "TeleXitos",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1049: {
+      name: "Kids Street SAP6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1057: {
+      name: "Cine Mexicano6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1058: {
+      name: "Cine Latino6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1059: {
+      name: "ViendoMovies6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1068: {
+      name: "Gol TV (Spanish)6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1081: {
+      name: "HOLA TV6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1082: {
+      name: "Cartoon Network (SAP)6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1084: {
+      name: "Disney XD (SAP)6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1085: {
+      name: "RCN Novelas6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1086: {
+      name: "Videorola6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1090: {
+      name: "Pasiones6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1091: {
+      name: "Univisión tlnovelas6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1092: {
+      name: "Atres Series6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1093: {
+      name: "MAS CHIC6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1094: {
+      name: "INTI Network6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1096: {
+      name: "TV Quisqueya6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1097: {
+      name: "EWTN Español6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1099: {
+      name: "En Español On Demand6,8",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1100: {
+      name: "Noire Africa1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1103: {
+      name: "CEEN1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1104: {
+      name: "CaribVision1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1105: {
+      name: "Tempo1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1108: {
+      name: "i24NEWS (in French)1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1109: {
+      name: "TV5MONDE1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1110: {
+      name: "BFMTV1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1115: {
+      name: "iTVN1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1117: {
+      name: "TVN241,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1118: {
+      name: "The Israeli Network1,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1122: {
+      name: "Antenna Satellite1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1123: {
+      name: "Alpha6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1127: {
+      name: "RTPi1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1128: {
+      name: "SPT1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1129: {
+      name: "TV Globo1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1130: {
+      name: "TV Record1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1135: {
+      name: "ART1,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1146: {
+      name: "Phoenix North American Chinese Channel1,6",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1147: {
+      name: "Phoenix InfoNews1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1148: {
+      name: "The Chinese Channel1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1149: {
+      name: "ET Global NY1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1150: {
+      name: "CCTV-41,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1151: {
+      name: "NTD TV1,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1153: {
+      name: "MBC1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1154: {
+      name: "The Korean Channel-TKC1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1155: {
+      name: "KBS World1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1156: {
+      name: "CTS America1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1157: {
+      name: "TV Japan6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1161: {
+      name: "The Filipino Channel1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1162: {
+      name: "GMA Pinoy TV1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1164: {
+      name: "Jus Punjabi1,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1165: {
+      name: "Eros Now On Demand1,6,8",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1167: {
+      name: "TV Asia1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1168: {
+      name: "ITV Gold1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1169: {
+      name: "Zee TV1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1173: {
+      name: "SET1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1182: {
+      name: "RTVi1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1183: {
+      name: "RTN1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1188: {
+      name: "Shanson TV1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+    1194: {
+      name: "RAI Italia1,6,7",
+      packages: ["Spanish Basic", "Spanish Preferred"],
+    },
+  },
+  packages: {},
+};
