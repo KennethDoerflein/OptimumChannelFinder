@@ -3064,5 +3064,21 @@ var optimumChannelLineupBronx = {
       packages: ["Basic TV", "Core TV", "Value TV", "Select TV", "Premier TV"],
     },
   },
-  packages: {},
+  packages: {
+    "Basic TV": {
+      description: "Includes local broadcast channels and a limited selection of cable channels.",
+    },
+    "Core TV": {
+      description: "Includes all Basic TV channels plus additional popular cable channels.",
+    },
+    "Value TV": {
+      description: "Includes all Core TV channels plus more entertainment and sports channels.",
+    },
+    "Select TV": {
+      description: "Includes all Value TV channels plus premium movie channels and regional sports networks.",
+    },
+    "Premier TV": {
+      description: "Includes all Select TV channels plus additional premium channels and international channels.",
+    },
+  },
 };
