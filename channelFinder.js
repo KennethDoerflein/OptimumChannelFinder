@@ -13,11 +13,11 @@ function updateProvider() {
   let currentProvider = document.getElementById("provider").value;
   let selectElement = document.getElementById("packageType");
   selectElement.innerHTML = '<option value="all">All Packages</option>';
-  if (currentProvider === "" || window[currentProvider].packages == null) {
+  if (currentProvider === "" || window["optimumCommon"].packages == null) {
     findChannel();
     return;
   }
-  let packages = Object.keys(window[currentProvider].packages);
+  let packages = Object.keys(window["optimumCommon"].packages);
   for (let i = 0; i < packages.length; i++) {
     let option = document.createElement("option");
     option.text = packages[i];
@@ -44,11 +44,13 @@ function findChannel() {
   // if (!channelCheckbox) {
   //   cInnerTextMid = " is on channel(s) ";
   // }
-  let jsonChannels = Object.keys(currentProvider.channels);
+  let combined = { ...window["optimumCommon"] };
+  combined.channels = { ...combined.channels, ...currentProvider };
+  let jsonChannels = Object.keys(combined.channels);
   document.getElementById("channelResults").innerText = "";
   for (let i = 0; i < jsonChannels.length; i++) {
     let currentChannelNumber = jsonChannels[i];
-    let currentChannel = currentProvider.channels[currentChannelNumber];
+    let currentChannel = combined.channels[currentChannelNumber];
     if (currentChannel !== undefined) {
       let currentName = currentChannel.name.toLowerCase();
       let currentPackages = currentChannel.packages;
